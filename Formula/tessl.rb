@@ -1,9 +1,9 @@
 class Tessl < Formula
-  desc ""
-  homepage ""
-  url "https://registry.npmjs.org/@tessl/cli/-/cli-0.24.0.tgz"
-  sha256 "03d0cc0a76dd5e663c86f7efa656b096c675ae996e707e7b7807c01d8fc48781"
-  license "MIT"
+  desc "CLI and MCP to provide coding agents the context they are missing"
+  homepage "https://tessl.io"
+  url "https://registry.npmjs.org/@tessl/cli/-/cli-0.28.0.tgz"
+  sha256 "d6bc590511b83fc058af87e542e2c721d3ea16ceb907ebea6d89d53c44413800"
+  license ""
 
   depends_on "node"
 

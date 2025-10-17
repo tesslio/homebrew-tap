@@ -5,25 +5,17 @@ Official Homebrew tap for [Tessl](https://tessl.io).
 ## Installation
 
 ```bash
-brew tap tesslio/tessl
-brew install tessl
+brew install tesslio/tap/tessl
 ```
 
-## Usage
+## Getting started
 
-After installation, you can use the Tessl CLI:
+In your current project run `tessl registry sync` to start using tessl.
+
+Check out the [Tessl docs](https://docs.tessl.io/) for more details.
 
 ```bash
 tessl --help
-```
-
-## Updating
-
-To update to the latest version:
-
-```bash
-brew update
-brew upgrade tessl
 ```
 
 ## Uninstallation

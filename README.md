@@ -22,5 +22,5 @@ tessl --help
 
 ```bash
 brew uninstall tessl
-brew untap tesslio/tessl
+brew untap tesslio/tap
 ```

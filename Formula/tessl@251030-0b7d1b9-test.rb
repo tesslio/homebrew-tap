@@ -1,4 +1,4 @@
-class Tessl < Formula
+class TesslAT2510300b7d1b9Test < Formula
   desc "CLI and MCP to provide coding agents the context they are missing"
   homepage "https://tessl.io"
   url "https://install.tessl.io/releases/251030-0b7d1b9-test.tgz"

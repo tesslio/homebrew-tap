@@ -2,8 +2,8 @@ require_relative "./tessl.rb"
 class TesslBeta < Tessl
   desc "CLI and MCP to provide coding agents the context they are missing"
   homepage "https://tessl.io"
-  url "https://tileworks-cli-assets.s3.amazonaws.com/releases/0.50.0-beta.2.tgz"
-  sha256 "eaf716fe107ed23c6e4a5cf2a65a4ccbd9f4d84e30b52c3fcaa622b89b12c813"
+  url "https://install.tessl.io/releases/0.50.3-beta.1.tgz"
+  sha256 "7adbeb33fb562f0480f77df24d51b55fb9535a8e514e1ddcf35fad9567b5de73"
   license ""
 
   depends_on "node"

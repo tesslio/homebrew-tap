@@ -3,16 +3,16 @@ require "pathname"
 class Tessl < Formula
   desc "CLI and MCP to provide coding agents the context they are missing"
   homepage "https://tessl.io"
-  url "https://install.tessl.io/releases/0.51.0.tgz"
-  sha256 "99aa48fe90d92dd503ddb249e4508daee370ee6b1d5bd7d3a43841de90418ad2"
+  url "https://install.tessl.io/releases/0.52.2.tgz"
+  sha256 "45b20ddd53363e3a7ed9ee70fbfaeb6cc46909612f5563a088511f929097023a"
   license ""
 
   depends_on "node"
 
   option "with-version", "Install the test release"
   if build.with?("version") && ENV["HOMEBREW_TESSL_VERSION"]
-    url "https://install.tessl.io/releases/#{ENV["HOMEBREW_TESSL_VERSION"]}.tgz"
-    sha256 ""
+    url "https://install.tessl.io/releases/0.52.2.tgz"
+    sha256 "45b20ddd53363e3a7ed9ee70fbfaeb6cc46909612f5563a088511f929097023a"
   end
 
   def install

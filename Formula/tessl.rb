@@ -9,12 +9,6 @@ class Tessl < Formula
 
   depends_on "node"
 
-  option "with-version", "Install the test release"
-  if build.with?("version") && ENV["HOMEBREW_TESSL_VERSION"]
-    url "https://install.tessl.io/releases/0.52.2.tgz"
-    sha256 "45b20ddd53363e3a7ed9ee70fbfaeb6cc46909612f5563a088511f929097023a"
-  end
-
   def install
     system "npm", "install", *std_npm_args
     bin.install_symlink Dir["#{libexec}/bin/*"]
@@ -44,6 +38,6 @@ class Tessl < Formula
   end
 
   test do
-    assert_match version.to_s, shell_output("#{bin}/foo --version")
+    assert system("#{bin}/tessl", "--version")
   end
 end

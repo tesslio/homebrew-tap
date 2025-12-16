@@ -3,9 +3,9 @@ require "pathname"
 class Tessl < Formula
   desc "CLI and MCP to provide coding agents the context they are missing"
   homepage "https://tessl.io"
-  version "0.56.1"
-  url "https://install.tessl.io/releases/0.56.1.tgz"
-  sha256 "2aeb9421430763a08e3cfa995f5244c9004a3b6bfcd150fd5210a58b21df0690"
+  version "0.56.2"
+  url "https://install.tessl.io/releases/0.56.2.tgz"
+  sha256 "4e98bfc5bcd396250726201855a6862dacd98c30f790090301a275dc8213c93b"
   license ""
 
   depends_on "node"
